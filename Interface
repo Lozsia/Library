@@ -6,7 +6,7 @@ local InterfaceManager = {} do
         Theme = getgenv().Theme,
         Acrylic = true,
         Transparency = true,
-        MenuKeybind = "LeftControl"
+        MenuKeybind = getgenv().MinimizeBind
     }
 
     function InterfaceManager:SetFolder(folder)
